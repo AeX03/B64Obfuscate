@@ -13,7 +13,7 @@
 <br>
 [![visitor badge](https://visitor-badge.laobi.icu/badge?page_id=AeX03.B64Obfuscate&left_color=gray&right_color=purple&left_text=New%20Visitors%20Today)](https://github.com/B64Obfuscate)
 
-## Preview (no finish in develope)
+## Preview
 ![Before](https://github.com/AeX03/B64Obfuscate/blob/main/ofcu/assets/images/AEXBefore.png)
 ![After](https://github.com/AeX03/B64Obfuscate/blob/main/ofcu/assets/images/AEXAfter.png)
 
