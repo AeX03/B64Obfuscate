@@ -99,7 +99,7 @@ try:
         exit('{}'.format(e))
 
     try:
-        wordlist = open('\ofcu\words.txt', 'r')
+        wordlist = open('/ofcu/words.txt', 'r')
         words = list(set(wordlist.read().split("\n")))
         confuse = confuse(words)
     except Exception as e:
